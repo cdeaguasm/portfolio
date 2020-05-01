@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio, using HTML, SASS and JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdeaguasm/portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Carlos De Aguas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdeaguasm/portfolio/issues"
+  },
+  "homepage": "https://github.com/cdeaguasm/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
